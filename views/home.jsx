@@ -1,13 +1,13 @@
 const React = require('react')
-import Default from './default.jsx'
+import Def from './default.jsx'
 
 
 export const Home = () => {
     return (
-        <Default>
+        <Def>
             <main>
                 <h1>Roll 4 Initative</h1>
             </main>
-        </Default>
+        </Def>
     )
 }

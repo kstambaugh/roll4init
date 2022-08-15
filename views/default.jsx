@@ -1,6 +1,6 @@
 const React = require('react')
 
-export const Default = () => {
+export const Def = () => {
     return (
         <html>
             <head>
