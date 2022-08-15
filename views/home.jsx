@@ -1,8 +1,8 @@
 const React = require('react')
-const Default = require('./default.jsx')
+import Default from './default.jsx'
 
 
-const Home = () => {
+export const Home = () => {
     return (
         <Default>
             <main>
@@ -11,5 +11,3 @@ const Home = () => {
         </Default>
     )
 }
-
-exports.module = Home
