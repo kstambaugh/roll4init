@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('*', (req, res) => {
-    res.status(404).send('404 Page')
+    res.status(404).render('error404')
 })
 
 app.listen(process.env.PORT, () => console.log('connected on PORT 3000'))
